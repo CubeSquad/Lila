@@ -1,408 +1,426 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<!--[if IE 7]><html class="ie ie7"><![endif]-->
+<!--[if IE 8]><html class="ie ie8"><![endif]-->
+<!--[if IE 9]><html class="ie ie9"><![endif]-->
+<html lang="en">
+
 <head>
-    <!-- META TAGS -->
-    <meta charset="UTF-8">
-
-    <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no" />
-
-    <title>Home &#8211; Cream</title>
-
-    <link rel='stylesheet' id='google-open-sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&#038;subset=latin%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Cvietnamese%2Clatin-ext%2Ccyrillic&#038;ver=4.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-lily-script-one-css'  href='http://fonts.googleapis.com/css?family=Lily+Script+One&#038;subset=latin%2Clatin-ext&#038;ver=4.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='google-Leckerli-one-css'  href='http://fonts.googleapis.com/css?family=Leckerli+One&#038;ver=4.4' type='text/css' media='all' />
-
-    <link rel='stylesheet' id='woocommerce-layout-css'  href='css/woocommerce-layout.css?ver=2.4.12' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='css/woocommerce-smallscreen.css?ver=2.4.12' type='text/css' media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' id='woocommerce-general-css'  href='css/woocommerce.css?ver=2.4.12' type='text/css' media='all' />
-
-    <link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap.css?ver=1.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='js/flexslider/flexslider.css?ver=2.2.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='owl-carousel-css'  href='js/carousel/owl.carousel.css?ver=1.24' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css'  href='css/font-awesome.css?ver=4.0.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='selectric-css'  href='css/selectric.css?ver=1.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='image-light-box-css-css'  href='js/image-lightbox/image-light-box.css?ver=1.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='meanmenu-css'  href='css/meanmenu.css?ver=2.0.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='responsive-tables-css'  href='css/responsive-tables.css?ver=2.1.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='animate-css'  href='css/animate.css?ver=1.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='main-css'  href='css/main.css?ver=1.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='parent-custom-css'  href='css/custom.css?ver=1.0' type='text/css' media='all' />
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="favicon.png" rel="icon">
+    <meta name="author" content="#{author}">
+    <meta name="keywords" content="#{keyword}">
+    <meta name="description" content="#{description}">
+    <title>Bakery | Contact</title>
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700%7CPacifico%7CVarela+Round%7CPoppins" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/ps-icon/ps-icon.css">
+    <!-- CSS Library-->
+    <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/Magnific-Popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+    <!-- Custom-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!--WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 </head>
+<!--[if IE 7]><body class="ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 8]><body class="ie8 lt-ie9 lt-ie10"><![endif]-->
+<!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
 
-<body class="">
-
-<!--[if lt IE 7]>
-<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="<php echo 'http://www.google.com/chromeframe/?redirect=true'; ?>">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
-
-<!-- Start of Header Wrapper -->
-<div class="header-wrapper">
-
-    <header class="header container fadeInDown ">
-
-        <div class="logo-wrapper">
-            <div class="logo">
-                <h1 class="text-logo">
-                    <a href="index.html" title="Cream">
-                        Cream
-                    </a>
-                </h1>
-                <small class="tag-line">Just another WordPress site</small>
-            </div>
-        </div>
-
-
-        <!-- Show quick view cart if WooCommerce is activated and enabled from theme options -->
-        <div class="mini-cart">
-            <div class="cart-inner">
-                <a href="cart.html" class="cart-link">
-                    <div class="cart-icon">
-                        <i class="fa fa-shopping-cart"></i>
-                        <strong>5</strong>
-                    </div>
-                </a>
-                <div class="nav-dropdown" style="display: none;">
-                    <div class="nav-dropdown-inner">
-                        <div class="cart_list">
-                            <div class="row mini-cart-item">
-                                <div class="col-sm-2">
-                                    <a href="#" class="remove" title="Remove this item"><i class="fa fa-close"></i></a>                                        </div>
-                                <div class="col-sm-7">
-                                    <a class="cart_list_product_title" href="#">Flying Ninja</a>
-                                    <div class="cart_list_product_price">
-                                        <span class="amount">$12.00</span> /</div>
-                                    <div class="cart_list_product_quantity">Quantity: 1</div>                                        </div>
-                                <div class="col-sm-3">
-                                    <a href="#"><img src="images/temp-images/shop-img.jpg" alt="Shop Image"></a>
-                                </div>
-                            </div><!-- end row -->
-                            <div class="row mini-cart-item">
-                                <div class="col-sm-2">
-                                    <a href="#" class="remove" title="Remove this item"><i class="fa fa-close"></i></a>                                        </div>
-                                <div class="col-sm-7">
-                                    <a class="cart_list_product_title" href="#">Happy Ninja</a><div class="cart_list_product_price">
-                                    <span class="amount">$18.00</span> /</div>
-                                    <div class="cart_list_product_quantity">Quantity: 1</div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <a href="#"><img src="images/temp-images/shop-img.jpg" alt="Shop Image"></a>
-                                </div>
-                            </div><!-- end row -->
-                            <div class="row mini-cart-item">
-                                <div class="col-sm-2">
-                                    <a href="#" class="remove" title="Remove this item"><i class="fa fa-close"></i></a>                                        </div>
-                                <div class="col-sm-7">
-                                    <a class="cart_list_product_title" href="#">Happy Ninja</a>
-                                    <div class="cart_list_product_price"><span class="amount">$35.00</span> /</div>
-                                    <div class="cart_list_product_quantity">Quantity: 1</div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <a href="#"><img src="images/temp-images/shop-img.jpg" alt="Shop Image"></a>                                            </div>
-                            </div><!-- end row -->
-                            <div class="row mini-cart-item">
-                                <div class="col-sm-2">
-                                    <a href="#" class="remove" title="Remove this item"><i class="fa fa-close"></i></a>                                        </div>
-                                <div class="col-sm-7">
-                                    <a class="cart_list_product_title" href="#">Ninja Silhouette</a>
-                                    <div class="cart_list_product_price"><span class="amount">$20.00</span> /</div>
-                                    <div class="cart_list_product_quantity">Quantity: 1</div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <a href="#"><img src="images/temp-images/shop-img.jpg" alt="Shop Image"></a>                                              </div>
-                            </div><!-- end row -->
-                            <div class="row mini-cart-item">
-                                <div class="col-sm-2">
-                                    <a href="#" class="remove" title="Remove this item"><i class="fa fa-close"></i></a>                                        </div>
-                                <div class="col-sm-7">
-                                    <a class="cart_list_product_title" href="#">Ninja Silhouette</a>
-                                    <div class="cart_list_product_price"><span class="amount">$35.00</span> /</div>
-                                    <div class="cart_list_product_quantity">Quantity: 1</div>
-                                </div>
-                                <div class="col-sm-3">
-                                    <a href="#"><img src="images/temp-images/shop-img.jpg" alt="Shop Image"></a>                                      </div>
-                            </div><!-- end row -->
-                        </div>
-                        <div class="minicart_total_checkout">
-                            Cart Subtotal<span><span class="amount">$120.00</span></span>
-                        </div>
-                        <a href="cart.html" class="button expanded text-uppercase">View Cart</a>
-                        <a href="checkout.html" class="button secondary expanded text-uppercase">Proceed to Checkout</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-        <!-- product search form -->
-        <div class="inspiry-search-wrapper">
-            <form method="get" class="search-form" action="#">
-                <input type="search" class="search-field" placeholder="Search Products..." value="" name="s" title="Search For:" />
-                <input type="hidden" name="post_type" value="product" />
-            </form>
-            <a class="search-button" href=""><i class="fa fa-search"></i></a>
-        </div>
-
-        <!-- Main Menu -->
-        <div class="main-menu-wrapper">
-            <nav id="nav" class="main-menu nav-collapse clearfix">
-                <ul class="clearfix"><li><a href="index.html">Home</a>
-                    <ul class="sub-menu">
-                        <li><a href="home-2.html">Home &#8211; Possible Variation 2</a></li>
-                        <li><a href="home-3.html">Home &#8211; Possible Variation 3</a></li>
-                    </ul>
-                </li>
-                    <li><a href="our-work.html">Our Work</a>
-                        <ul class="sub-menu">
-                            <li><a href="2-columns-portfolio.html">2 Columns Portfolio</a></li>
-                            <li><a href="3-columns-portfolio.html">3 Columns Portfolio</a></li>
-                            <li><a href="4-columns-portfolio.html">4 Columns Portfolio</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="shop.html">Shop</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop &#8211; Right Sidebar</a></li>
-                            <li><a href="shop-left-sidebar.html">Shop &#8211; Left Sidebar</a></li>
-                            <li><a href="shop-full-width.html">Shop &#8211; Full Width</a></li>
-                            <li><a href="product-detail.html">Product Detail</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="checkout.html">Check Out</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="faq.html">FAQs</a></li>
-                            <li><a href="columns.html">Columns</a></li>
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
-                            <li><a href="sample-page.html">Sample Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="current-menu-item"><a href="contact.html">Contact</a> </li>
-                </ul>
-            </nav>
-        </div>
-
-
-        <div class="clearfix"></div>
-
-        <!-- product search form for mobile screens -->
-        <div class="row mobile-search-wrapper">
-            <div class="col-xs-12">
-                <form method="get" class="mobile-search-form" action="#">
-                    <div class="row">
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-8 field-wrapper">
-                            <input type="search" class="mobile-search-field" placeholder="Search Products..." value="" name="s" title="Search For:" />
-                        </div>
-                        <div class="col-sm-2 button-wrapper">
-                            <input type="submit" class="mobile-search-button" value="Search" />
-                        </div>
-                        <div class="col-sm-1"></div>
-                    </div>
-                    <input type="hidden" name="post_type" value="product" />
-                </form>
-            </div>
-        </div>
-
-    </header>
-
-    <div class="header-border-bottom"></div>
-
-</div>
-<!-- End of Header Wrapper -->
-
-<div class="page-banner" style="background-repeat: no-repeat; background-position: center top; background-image: url('images/temp-images/banner.jpg'); background-size: cover;">
-    <div class="container fadeInLeft ">
-        <h2 class="page-title">Contact</h2>
-    </div>
-</div>
-<!-- start of page content -->
-<div class="page-content container">
-
-    <div class="row">
-        <div class="main col-md-9" role="main">
-            <section id="contact-form">
-                <h2 class="form-heading">Send a Message</h2>
-                <form class="contact-form clearfix" action="contact_form_handler.php" method="post">
-                <div class="row">
-                    <p class="group">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" class="required" title="* Please provide your name" />
-                    </p>
-                    <p class="group">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" class="email required" title="* Please provide a valid email address" />
-                    </p>
-                    <p class="group">
-                        <label for="number">Phone</label>
-                        <input type="text" name="number" id="number" class="phone digits" title="* Please provide only digits as phone number" />
-                    </p>
-                </div>
-                <p>
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" class="required" cols="30" rows="5" title="* Please provide your message"></textarea>
-                    <br/>
-                    <em>All HTML tags will be removed.</em>
-                </p>
-                <p>
-                    <input type="submit" value="SUBMIT" id="submit" name="submit">
-                    <img src="images/ajax-loader.gif" id="contact-loader" alt="Loading...">
-                </p>
-            </form>
-                <div class="error-container"></div>
-                <div id="message-sent"></div>
-            </section>
-        </div>
-        <!-- start of sidebar -->
-        <aside class="sidebar col-md-3" role="complementary">
-            <section class="widget  contact-details-widget">
-                <h3 class="title">Address</h3>
-                <div class="wrapper">
-                <address><i class="fa fa-map-marker"></i>3895 NW 107TH AVE,
-                    MIAMI, UNITED STATES,
-                    465601</address>
-                    <div class="phone-numbers">
-                <span><i class="fa fa-phone"></i>+1 800 559 6580</span><span><i class="fa fa-phone"></i>+1 800 559 6581</span><span><i class="fa fa-fax"></i> +1 959 603 6035</span>
-                    </div>
-            </div>
-            </section>
-        </aside>
-        <!-- end of sidebar -->
-    </div>
-
-</div><!-- end of page content -->
-<div id="map-canvas"></div>
-
-<div class="twitter-feeds">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="twitter-icon fade-in-up ">
-                    <i class="fa fa-twitter img-circle"></i>
-                </div>
-                <p class="inline_tweet fade-in-up ">
-                    Both of our <a href="http://twitter.com/search?q=%23RealEstate&src=hash" target="_blank">#RealEstate</a> <a href="http://twitter.com/search?q=%23WordPRess&src=hash" target="_blank">#WordPRess</a> Themes have the latest Visual Composer Plugin 4.11.2.1
-                    <a href="https://t.co/j9ofmliCmS" target="_blank">https://t.co/j9ofmliCmS</a>
-                    <a href="https://t.co/J3iLTWPJ0J" target="_blank">https://t.co/J3iLTWPJ0J</a>
-                </p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- Start Footer -->
-<footer class="footer">
-
-    <div class="footer-top container">
-
-        <div class="row">
-
-            <div class="col-lg-8 col-xs-12">
-
-                <div class="footer-menu-wrapper fade-in-left ">
-                    <nav class="footer-nav clearfix">
-                        <ul id="menu-footer-menu" class="clearfix">
-                            <li>
-                                <a href="#">Home</a></li>
-                            <li><a href="#">Blog</a>
-                            </li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="contact-details clearfix fade-in-left ">
-                    <address>
-                        <i class="fa fa-home"></i>3895 NW 107th Ave, Miami, United States, 465601
-                    </address>
-                    <a class="phone-number" href="tel:18005551234">
-                        <i class="fa fa-mobile"></i>1-800-555-1234</a>
-                    <span class="email">
-                        <i class="fa fa-envelope-o"></i>
-                        <a href="mailto:&#105;&#110;f&#111;&#64;y&#111;u&#114;w&#101;b&#115;&#105;&#116;&#101;&#46;c&#111;m">inf&#111;&#64;you&#114;&#119;ebs&#105;&#116;&#101;&#46;&#99;om</a></span>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-xs-12">
-                <div class="social-networks fade-in-right ">
-                    <p class="invitation">Get Social With Us</p>
-                    <ul class="social_networks clearfix">
-                        <li>
-                            <a target="_blank" href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                        </li>
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-google-plus fa-lg"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-youtube fa-lg"></i></a></li>
-                        <li><a target="_blank" href="skype:inspirythemes?add"><i class="fa fa-skype fa-lg"></i></a></li>
-                        <li><a target="_blank" href="#rss"><i class="fa fa-rss fa-lg"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-bottom fadeInUp ">
+<body class="page-init">
+    <div class="ps-searchbox">
+        <div class="ps-searchbox__remove"><i class="fa fa-remove"></i></div>
         <div class="container">
-            <p class="copyright-text">© Copyright 2015  All Rights Reserved.</p><a href="#top" id="scroll-top"></a>
+            <header>
+                <p>Enter your keywords:</p>
+                <form method="post" action="/product-grid.html">
+                    <input class="form-control" type="text" placeholder="">
+                    <button><i class="ps-icon--search"></i></button>
+                </form>
+            </header>
+            <div class="ps-searchbox__result">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="ps-product--list ps-product--list-light mt-60">
+                            <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="product-detail.html"></a><img src="images/cake/img-cr-1.jpg" alt=""></div>
+                            <div class="ps-product__content">
+                                <h4 class="ps-product__title"><a href="product-detail.html">Amazin’ Glazin’</a></h4>
+                                <p>Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate.</p>
+                                <p class="ps-product__price">
+                                    <del>£25.00</del>£15.00
+                                </p><a class="ps-btn ps-btn--xs" href="cart.html">Order now<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="ps-product--list ps-product--list-light mt-60">
+                            <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="product-detail.html"></a><img src="images/cake/img-cr-2.jpg" alt=""></div>
+                            <div class="ps-product__content">
+                                <h4 class="ps-product__title"><a href="product-detail.html">The Crusty Croissant</a></h4>
+                                <p>Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate.</p>
+                                <p class="ps-product__price">
+                                    <del>£25.00</del>£15.00
+                                </p><a class="ps-btn ps-btn--xs" href="cart.html">Order now<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                        <div class="ps-product--list ps-product--list-light mt-60">
+                            <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="product-detail.html"></a><img src="images/cake/img-cr-3.jpg" alt=""></div>
+                            <div class="ps-product__content">
+                                <h4 class="ps-product__title"><a href="product-detail.html">Amazin’ Glazin’</a></h4>
+                                <p>Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate.</p>
+                                <p class="ps-product__price">
+                                    <del>£25.00</del>£15.00
+                                </p><a class="ps-btn ps-btn--xs" href="cart.html">Order now<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="ps-product--list ps-product--list-light mt-60">
+                            <div class="ps-product__thumbnail">
+                                <a class="ps-product__overlay" href="product-detail.html"></a><img src="images/cake/img-cr-4.jpg" alt=""></div>
+                            <div class="ps-product__content">
+                                <h4 class="ps-product__title"><a href="product-detail.html">The Crusty Croissant</a></h4>
+                                <p>Lollipop dessert donut marzipan cookie bonbon sesame snaps chocolate.</p>
+                                <p class="ps-product__price">
+                                    <del>£25.00</del>£15.00
+                                </p><a class="ps-btn ps-btn--xs" href="cart.html">Order now<i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center"><a class="ps-searchbox__morelink" href="product-grid.html">VIEW ALL RESULT</a></footer>
         </div>
     </div>
-
-</footer><!-- End Footer -->
-
-
-<script type='text/javascript' id='quick-js'>
-
-</script>
-<script type='text/javascript' src='js/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='js/jquery-migrate.js?ver=1.2.1'></script>
-<script type='text/javascript' src='js/modernizr.custom.js?ver=2.6.2'></script>
-<script type='text/javascript' src='js/bootstrap.js?ver=3.0.3'></script>
-<script type='text/javascript' src='js/flexslider/jquery.flexslider-min.js?ver=2.2.2'></script>
-<script type='text/javascript' src='js/carousel/owl.carousel.min.js?ver=1.31'></script>
-<script type='text/javascript' src=js/jquery.appear.js?ver=0.3.3'></script>
-<script type='text/javascript' src='js/jquery.hoverdir.js?ver=1.0'></script>
-<script type='text/javascript' src='js/image-lightbox/imagelightbox.js?ver=1.0'></script>
-<script type='text/javascript' src='js/jquery.isotope.min.js?ver=2.0'></script>
-<script type='text/javascript' src='js/jquery.form.js?ver=3.45'></script>
-<script type='text/javascript' src='js/jquery.validate.min.js?ver=1.11.1'></script>
-<script type='text/javascript' src='js/jquery.selectric.min.js?ver=1.7.0'></script>
-<script type='text/javascript' src='js/jquery.transit.js?ver=0.9.9'></script>
-<script type='text/javascript' src='js/jquery.meanmenu.min.js?ver=2.0.6'></script>
-<script type='text/javascript' src='js/custom.js?ver=1.3.1'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=true&#038;ver=4.4'></script>
-<script>
-    function initializeContactMap() {
-        var officeLocation = new google.maps.LatLng(-37.817209, 144.965108);
-        var contactMapOptions = {
-            zoom:  16,
-            center: officeLocation,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            scrollwheel: false
-        }
-        var contactMap = new google.maps.Map(document.getElementById('map-canvas'), contactMapOptions);
-
-        var contactMarker = new google.maps.Marker({
-            position: officeLocation,
-            map: contactMap
-        });
-
-    }
-    window.onload = initializeContactMap();
-</script>
-
+    <div class="header--sidebar"></div>
+    <header class="header header--2" data-responsive="1199">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 ">
+                        <p>460 West 34th Street, 15th floor, New York - Hotline: 804-377-3580 - 804-399-3580</p>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 "><a class="ps-search-btn" href="#"><i class="ps-icon--search"></i></a>
+                        <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">USD</a></li>
+                                <li><a href="#">SGD</a></li>
+                                <li><a href="#">ERO</a></li>
+                                <li><a href="#">JPN</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Japanese</a></li>
+                                <li><a href="#">Chinese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <div class="container">
+                <div class="menu-toggle"><span></span></div>
+                <div class="navigation__left">
+                    <ul class="menu menu--left">
+                        <li class="menu-item-has-children"><a href="index.html">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Hot Demo</a></li>
+                                <li class="end-block"><a href="#">Trending</a></li>
+                                <li><a href="index.html">HOMEPAGE 1</a></li>
+                                <li><a href="homepage-2.html">HOMEPAGE 2</a></li>
+                                <li><a href="homepage-3.html">HOMEPAGE 3</a></li>
+                                <li class="try-theme"><a href="#">Try Theme Now</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="menu-item-has-children"><a href="product-grid.html">Products</a>
+                            <ul class="sub-menu">
+                                <li><a href="product-listing.html">Product Listing</a></li>
+                                <li><a href="product-grid.html">Product Grid</a></li>
+                                <li><a href="product-detail.html">Product Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="menu-1.html">Menu 1</a></li>
+                                <li><a href="menu-2.html">Menu 2</a></li>
+                                <li><a href="order-form.html">Order Form</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="cart.html">Cart</a></li>
+                                <li><a href="404.html">404 Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a class="ps-logo" href="index.html"><img src="images/logo-2.png" alt=""></a>
+                <div class="navigation__right">
+                    <ul class="menu menu--right">
+                        <li><a href="#">Gallery</a></li>
+                        <li class="menu-item-has-children"><a href="blog-listing.html">Blogs</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog-detail.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="current menu-item-has-children"><a href="#">Contact</a>
+                            <ul class="sub-menu">
+                                <li class="current "><a href="contact.html">Contact 1</a></li>
+                                <li class="current "><a href="contact-2.html">Contact 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><i class="ps-icon--shopping-cart"></i></a>
+                        <div class="ps-cart__listing">
+                            <div class="ps-cart__content">
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-1.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">Amazin’ Glazin’</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-2.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Crusty Croissant</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                                <div class="ps-cart-item">
+                                    <a class="ps-cart-item__close" href="#"></a>
+                                    <div class="ps-cart-item__thumbnail">
+                                        <a href="product-detail.html"></a><img src="images/cake/img-cake-3.jpg" alt=""></div>
+                                    <div class="ps-cart-item__content"><a class="ps-cart-item__title" href="product-detail.html">The Rolling Pin</a>
+                                        <p><span>Quantity:<i>12</i></span><span>Total:<i>£176</i></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ps-cart__total">
+                                <p>Number of items:<span>36</span></p>
+                                <p>Item Total:<span>£528.00</span></p>
+                            </div>
+                            <div class="ps-cart__footer"><a class="ps-btn ps-btn--view-bag" href="cart.html">View bag</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="back2top"><i class="fa fa-angle-up"></i></div>
+    <div class="loader"></div>
+    <div class="page-wrap">
+        <!--section-->
+        <div class="ps-section--hero"><img src="images/hero/01.jpg" alt="">
+            <div class="ps-section__content text-center">
+                <h3 class="ps-section__title">OUR BAKERY</h3>
+                <div class="ps-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">About Us</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="ps-section pt-80 pb-80">
+            <div class="container">
+                <div class="ps-contact">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                            <div class="ps-contact__info">
+                                <div class="mb-60" id="contact-map" data-address="New York, NY" data-title="BAKERY LOCATION!" data-zoom="17"></div>
+                                <div class="ps-contact__block">
+                                    <h4>BASEMENT COMPANY, NEW YORK</h4>
+                                    <p><i class="fa fa-envelope-o"></i>enquiry@bakery.com</p>
+                                    <p><i class="fa fa-phone"></i>+1 650-253-0000</p>
+                                    <h4>Follow Us</h4>
+                                    <ul class="ps-contact__social">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                            <div class="ps-contact__form">
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="First Name">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="email" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Telephone">
+                                </div>
+                                <div class="form-group">
+                                    <select class="ps-select" data-placeholder="Popupar product">
+                                        <option value="01">Popular products</option>
+                                        <option value="01">Item 01</option>
+                                        <option value="02">Item 02</option>
+                                        <option value="03">Item 03</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="6" placeholder="Text your message here..."></textarea>
+                                </div>
+                                <div class="form-group mt-30">
+                                    <button class="ps-btn ps-btn--sm ps-contact__submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="ps-section ps-section--subscribe pt-80 pb-80">
+            <div class="container">
+                <div class="ps-subscribe">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+                            <h4>ABOUT US</h4>
+                            <p>Te pri oblique ullamcorper, magna persequeris has eu. Mei prompta dolores examad debet suavitate. Pri te vocibus electram. Eu eleifend rationibus vis, at.</p>
+                            <p class="text-uppercase ps-subscribe__highlight">240 CENTRAL PARK, LONDON, OR 10019</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
+                            <a class="ps-subscribe__logo" href="index.html"><img src="images/logo-1.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+                            <h4>SUBSCRIBE EMAIL</h4>
+                            <p>Give us your email, and we shall send regular updates for new stuff and events.</p>
+                            <form class="ps-subscribe__form" method="post" action="_action">
+                                <input class="form-control" type="text" placeholder="Type your email...">
+                                <button class="ps-btn ps-btn--sm">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer class="ps-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="ps-widget ps-widget--footer ps-widget--payment">
+                            <div class="ps-widget__header">
+                                <h3 class="ps-widget__title">PAYMENTS ACCEPTED</h3>
+                            </div>
+                            <div class="ps-widget__content">
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/payment/1.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/payment/2.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/payment/3.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/payment/4.png" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/payment/5.png" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="ps-widget ps-widget--footer ps-widget--worktime">
+                            <div class="ps-widget__header">
+                                <h3 class="ps-widget__title">WORK TIME</h3>
+                            </div>
+                            <div class="ps-widget__content">
+                                <p><strong>Monday - Friday</strong> 8:00 am - 8:30 pm</p>
+                                <p><strong>Satuday - Sunday</strong>10:00 am - 16:30 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="ps-widget ps-widget--footer ps-widget--order">
+                            <div class="ps-widget__header">
+                                <h3 class="ps-widget__title">ORDERS AND RETURNS</h3>
+                            </div>
+                            <div class="ps-widget__content">
+                                <ul class="ps-list--line">
+                                    <li><a href="#">Order</a></li>
+                                    <li><a href="#">Shipping</a></li>
+                                    <li><a href="#">Policy Return Policy</a></li>
+                                    <li><a href="#">Payments</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="ps-widget ps-widget--footer ps-widget--connect">
+                            <div class="ps-widget__header">
+                                <h3 class="ps-widget__title">CONNECT US</h3>
+                            </div>
+                            <div class="ps-widget__content">
+                                <ul class="ps-widget__social">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                                <a href="#"><img src="images/app.jpg" alt=""></a>
+                                <p>@2017 Design by<a href="#"> Alena Studio</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- JS Library-->
+    <script type="text/javascript" src="plugins/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="plugins/overflow-text.js"></script>
+    <script type="text/javascript" src="plugins/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="plugins/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="plugins/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script type="text/javascript" src="plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="plugins/moment.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="plugins/slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="plugins/skrollr.min.js"></script>
+    <script type="text/javascript" src="plugins/gmap3.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx39JFH5nhxze1ZydH-Kl8xXM3OK4fvcg&amp;region=GB"></script>
+    <!-- Revolution - slider-->
+    <script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <!-- Custom scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
